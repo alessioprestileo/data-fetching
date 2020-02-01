@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Geta task-2</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="search">
+      <div class="search-label">Search the OMDB API:</div>
+      <form class="search-form">
+        <div class="search-field">
+          <i class="material-icons">search</i>
+          <input type="text">
+        </div>
+        <input type="submit" value="Search" class="search-button">
+      </form>
+    </div>
+  </header>
+  <div class="view">
+      <main class="page">
+        <div class="fetching">FETCHING...</div>
+        <div class="ready">
+          <div class="title">Results for </div>
+          <div class="error">Something went wrong!</div>
+          <div class="content">
+            <ul class="results"></ul>
+          </div>
+        </div>
+      </main>
+  </div>
+</body>
+
+</html>
